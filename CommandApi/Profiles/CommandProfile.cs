@@ -13,10 +13,10 @@ namespace CommandApi.Profiles
         public CommandProfile()
         {
             //Source -> Target
-            CreateMap<Command, CommandReadDto>();
-            //
+            CreateMap<Command, CommandReadDto>(); 
             CreateMap<CommandCreateDto, Command>();
-            
+            CreateMap<CommandUpdateDto, Command>();
+            CreateMap<Command, CommandUpdateDto>();
         }
     }
 }

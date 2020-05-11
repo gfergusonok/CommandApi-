@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CommandApi.Dtos
 {
-    public class CommandCreateDto
+    public class CommandUpdateDto
     {
         [Required]
         [MaxLength(250)]
